@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #E90064;
+    color: #060047;
+    padding: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.drum_img {
+    height: 3rem;
+}
+
+.container {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+button {
+    color: inherit;
+    background-color: #B3005E;
+    font-size: 3rem;
+    height: 9rem;
+    aspect-ratio: 1/1;
+    border-radius: 8px;
+    border: 15px solid #FF5F9E;
+}
+
+span{
+    font-size: 0.5rem;
+}
+
+footer {
+    font-size: 1.2rem;
+    margin-top: 13rem;
+}
+
+@media (max-width:800px) {
+    html{
+        font-size: 80%;
+    }
+}
